@@ -23,11 +23,11 @@ To deal with the class imbalance the data is divieded into train, validation and
 Used camemBERT model from transformers library and fined tuned it to our dataset. The model was trained on 138 GB French text. The learning rate =1e-5, epochs = 10, batch size = 16.
 
 ## Evaluation:
-Precision: 0.8469
-Recall:0.8470
-F1_score:0.8461
+Precision: 0.8499
+Recall:0.8421
+F1_score:0.8445
 
-Inference on test set: Accuracy=0.8470
+Inference on test set: Accuracy=0.8421
 
 ## Model Deployment:
 The best model was saved in pickle format so that it can be used for inference. A simple streamlit app was created to demonstrate the classification.
